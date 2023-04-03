@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Task_10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Task_10" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Task_11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Task_11" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Task_13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Task_13" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Task_14" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/task_14" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Task_15" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Task_15" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Task_9" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Task_9" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/task_15" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Task_15" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
