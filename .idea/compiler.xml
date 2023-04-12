@@ -18,6 +18,10 @@
       <module name="com.example.task_14.test" target="17" />
       <module name="com.example.Task_91.main" target="17" />
       <module name="com.example.Task_91.test" target="17" />
+      <module name="task_14.main" target="17" />
+      <module name="task_14.test" target="17" />
+      <module name="Task_141" target="17" />
+      <module name="Task_91" target="19" />
       <module name="Task_91.main" target="17" />
       <module name="Task_91.test" target="17" />
       <module name="Task_933" target="17" />

@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-test:3.0.4'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.jar {manifest.attributes['Main-Class'] = "org.example.Main"}
+
+tasks.register('app') {
+    dependsOn 'jar'
+    doLast {
+        copy {
+            from "/build/libs/Task_9-1.0-SNAPSHOT.jar"
+            into "app"
+        }
+        exec {
+            workingDir '/app'
+            commandLine "docker", "build", "-t", "task-9", "."
+        }
+        exec {
+            workingDir '/app'
+            commandLine "docker", "run", "-t", "docker.io/library/task-9"
+        }
+    }
+}
