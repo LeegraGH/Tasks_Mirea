@@ -1,0 +1,83 @@
+1280 [main] INFO  c.e.other_tasks.TasksApplication – Starting TasksApplication using Java 19.0.2 with PID 964 (D:\Programming\Java\Tasks_Mirea\Other_tasks\build\classes\java\main started by homea in D:\Programming\Java\Tasks_Mirea)
+1280 [main] INFO  c.e.other_tasks.TasksApplication – No active profile set, falling back to 1 default profile: "default"
+2811 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2920 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+3765 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3780 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3780 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3780 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+3937 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3937 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2576 ms
+4343 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+4453 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+4985 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+5313 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5368e981
+5313 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+5376 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+6890 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6921 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+7530 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8375 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+8500 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+8531 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+8563 [main] INFO  c.e.other_tasks.TasksApplication – Started TasksApplication in 7.927 seconds (process running for 9.463)
+9063 [RMI TCP Connection(3)-172.25.192.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+9063 [RMI TCP Connection(3)-172.25.192.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+9063 [RMI TCP Connection(3)-172.25.192.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+185298 [http-nio-8080-exec-1] INFO  c.e.o.services.CardService – Show cards
+16802349 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h5m30s39ms589µs700ns).
+23394588 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29m51s980ms429µs500ns).
+1259 [main] INFO  c.e.other_tasks.TasksApplication – Starting TasksApplication using Java 19.0.2 with PID 23716 (D:\Programming\Java\Tasks_Mirea\Other_tasks\build\classes\java\main started by homea in D:\Programming\Java\Tasks_Mirea)
+1264 [main] INFO  c.e.other_tasks.TasksApplication – No active profile set, falling back to 1 default profile: "default"
+2985 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3100 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+4655 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+4676 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+4678 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+4679 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+4868 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+4869 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3525 ms
+5377 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+5559 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+6219 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6648 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@351d93bd
+6654 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6721 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+8514 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+8532 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+9467 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10627 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+10755 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+10791 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+10819 [main] INFO  c.e.other_tasks.TasksApplication – Started TasksApplication in 10.162 seconds (process running for 11.987)
+12059 [RMI TCP Connection(13)-172.25.192.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+12059 [RMI TCP Connection(13)-172.25.192.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+12062 [RMI TCP Connection(13)-172.25.192.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+1252 [main] INFO  c.e.other_tasks.TasksApplication – Starting TasksApplication using Java 19.0.2 with PID 20272 (D:\Programming\Java\Tasks_Mirea\Other_tasks\build\classes\java\main started by homea in D:\Programming\Java\Tasks_Mirea)
+1258 [main] INFO  c.e.other_tasks.TasksApplication – No active profile set, falling back to 1 default profile: "default"
+2863 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2987 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+4270 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+4286 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+4287 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+4288 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+4450 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+4450 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3109 ms
+4985 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+5091 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+5648 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6001 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a55e82a
+6004 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6066 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+8535 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+8551 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+9407 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10624 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+10769 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+10830 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+10857 [main] INFO  c.e.other_tasks.TasksApplication – Started TasksApplication in 10.282 seconds (process running for 11.671)
+11199 [RMI TCP Connection(10)-172.25.192.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+11199 [RMI TCP Connection(10)-172.25.192.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+11201 [RMI TCP Connection(10)-172.25.192.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+57056 [http-nio-8080-exec-2] INFO  c.e.o.services.CardService – Show cards
+57290 [http-nio-8080-exec-2] INFO  c.e.o.utils.ExecutionTimeAspect – List com.example.other_tasks.services.CardService.showCards() executed in 234 ms

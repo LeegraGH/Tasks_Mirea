@@ -1,7 +1,8 @@
-package com.example.task_15.controllers;
+package com.example.other_tasks.controllers;
 
-import com.example.task_15.models.Card;
-import com.example.task_15.services.CardService;
+import com.example.other_tasks.models.Card;
+import com.example.other_tasks.services.BankService;
+import com.example.other_tasks.services.CardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,12 +18,24 @@ import java.util.List;
 public class CardController {
 
     private final CardService cardService;
+    private final BankService bankService;
 
     @GetMapping("/add")
     public String createCard(@RequestParam(value = "number") long number,
                              @RequestParam(value = "code") short code,
                              Model model) {
         Card card = new Card(number, code);
+        char firstDigitCard = String.valueOf(card.getNumber()).charAt(0);
+        if (firstDigitCard == '1') {
+            if (bankService.existsBank("Sber", "Moscow")) card.setBank(bankService.getBank("Sber", "Moscow"));
+            else card.setBank(null);
+        } else if (firstDigitCard == '2') {
+            if (bankService.existsBank("VTB", "Moscow")) card.setBank(bankService.getBank("VTB", "Moscow"));
+            else card.setBank(null);
+        } else if (firstDigitCard == '3') {
+            if (bankService.existsBank("Tinkoff", "Moscow")) card.setBank(bankService.getBank("Tinkoff", "Moscow"));
+            else card.setBank(null);
+        }
         if (!cardService.existsCard(number, code)) cardService.addCard(card);
         System.out.println("Added card: " + card);
         model.addAttribute("type", "add card");
@@ -52,6 +65,23 @@ public class CardController {
             model.addAttribute("cards", cards);
         }
         System.out.println("All cards: ");
+        int cnt = 0;
+        for (Card card : cards) {
+            System.out.println(++cnt + ". " + card);
+        }
+        return "card";
+    }
+
+    @GetMapping("/search")
+    public String searchCards(@RequestParam(value = "criteria") String criteria, Model model) {
+        model.addAttribute("type", "search cards");
+        List<Card> cards = cardService.searchCards(criteria);
+        if (cards.isEmpty()) {
+            model.addAttribute("data", "empty");
+        } else {
+            model.addAttribute("cards", cards);
+        }
+        System.out.println("All search cards: ");
         int cnt = 0;
         for (Card card : cards) {
             System.out.println(++cnt + ". " + card);

@@ -1,8 +1,8 @@
-package com.example.task_15.controllers;
+package com.example.other_tasks.controllers;
 
 
-import com.example.task_15.models.Bank;
-import com.example.task_15.services.BankService;
+import com.example.other_tasks.models.Bank;
+import com.example.other_tasks.services.BankService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -53,6 +53,24 @@ public class BankController {
             model.addAttribute("banks", banks);
         }
         System.out.println("All banks: ");
+        int cnt = 0;
+        for (Bank bank : banks) {
+            System.out.println(++cnt + ". " + bank);
+        }
+        return "bank";
+    }
+
+    @GetMapping("/search")
+    public String searchBanks(@RequestParam(value = "criteria") String criteria,
+                              Model model) {
+        model.addAttribute("type", "search banks");
+        List<Bank> banks = bankService.searchBanks(criteria);
+        if (banks.isEmpty()) {
+            model.addAttribute("data", "empty");
+        } else {
+            model.addAttribute("banks", banks);
+        }
+        System.out.println("All search banks: ");
         int cnt = 0;
         for (Bank bank : banks) {
             System.out.println(++cnt + ". " + bank);
