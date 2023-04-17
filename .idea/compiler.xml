@@ -7,9 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Task_10" />
-        <module name="Task_11" />
         <module name="Task_12" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="Other_tasks.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,9 +23,21 @@
       <module name="com.example.task_14.test" target="17" />
       <module name="com.example.Task_91.main" target="17" />
       <module name="com.example.Task_91.test" target="17" />
+      <module name="Task_10" target="17" />
+      <module name="Task_11" target="17" />
+      <module name="Task_13" target="17" />
+      <module name="Task_13.main" target="17" />
+      <module name="Task_13.test" target="17" />
+      <module name="Task_14" target="17" />
       <module name="task_14.main" target="17" />
       <module name="task_14.test" target="17" />
       <module name="Task_141" target="17" />
+      <module name="Task_15" target="17" />
+      <module name="Task_15.main" target="17" />
+      <module name="Task_15.test" target="17" />
+      <module name="Task_9" target="19" />
+      <module name="Task_9.main" target="19" />
+      <module name="Task_9.test" target="19" />
       <module name="Task_91" target="19" />
       <module name="Task_91.main" target="17" />
       <module name="Task_91.test" target="17" />

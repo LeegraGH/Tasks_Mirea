@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Task_141" />
     <file type="web" url="file://$PROJECT_DIR$/Task_142" />
     <file type="web" url="file://$PROJECT_DIR$/Task_15" />
+    <file type="web" url="file://$PROJECT_DIR$/Task_9" />
     <file type="web" url="file://$PROJECT_DIR$/Task_91" />
     <file type="web" url="file://$PROJECT_DIR$/Task_911" />
     <file type="web" url="file://$PROJECT_DIR$/Task_933" />
@@ -20,6 +21,13 @@
         <option value="$PROJECT_DIR$/Task_12/pom.xml" />
         <option value="$PROJECT_DIR$/Task_11/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Task_10/pom.xml" />
+        <option value="$PROJECT_DIR$/Task_11/pom.xml" />
+        <option value="$PROJECT_DIR$/Task_12/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">

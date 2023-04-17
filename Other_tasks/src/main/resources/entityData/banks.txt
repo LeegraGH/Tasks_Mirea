@@ -1,0 +1,6 @@
+Name = Sber, address = Moscow
+Name = VTB, address = Moscow
+Name = Tinkoff, address = Moscow
+Name = RusStandard, address = SPB
+Name = VTB, address = SPB
+Name = VTB, address = Ivanovo

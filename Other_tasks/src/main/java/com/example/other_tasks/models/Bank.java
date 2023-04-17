@@ -35,5 +35,4 @@ public class Bank {
     public String toString() {
         return "Name = " + name + ", address = " + address;
     }
-
 }
