@@ -18,6 +18,7 @@ public class BankService {
     private final BankRepository bankRepository;
     private final EmailService emailService;
 
+
     @Transactional
     public void addBank(Bank bank) {
         log.info("Add new bank {}", bank);

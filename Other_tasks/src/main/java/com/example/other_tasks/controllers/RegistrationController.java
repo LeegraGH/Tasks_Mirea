@@ -5,6 +5,7 @@ import com.example.other_tasks.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,11 +23,14 @@ public class RegistrationController {
     }
 
     @PostMapping("/registration")
-    public String addUser(@ModelAttribute("userForm") User userForm, Model model) {
-        if (!userService.saveUser(userForm)){
-            model.addAttribute("usernameError", "Пользователь с таким именем уже существует");
+    public String registration(@ModelAttribute("userForm") User userForm, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
             return "registration";
         }
-        return "redirect:index";
+        if (userService.getUser(userForm.getUsername())!=null){
+            return "registration";
+        }
+        userService.saveUser(userForm);
+        return "redirect:/login";
     }
 }

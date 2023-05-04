@@ -1,6 +1,7 @@
 package com.example.other_tasks.services;
 
 import com.example.other_tasks.models.Card;
+import com.example.other_tasks.repositories.BankRepository;
 import com.example.other_tasks.repositories.CardRepository;
 import com.example.other_tasks.utils.CardSpecification;
 import lombok.RequiredArgsConstructor;

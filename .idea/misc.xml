@@ -22,13 +22,6 @@
         <option value="$PROJECT_DIR$/Task_11/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/Task_10/pom.xml" />
-        <option value="$PROJECT_DIR$/Task_11/pom.xml" />
-        <option value="$PROJECT_DIR$/Task_12/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

@@ -4,3 +4,4 @@ Name = Tinkoff, address = Moscow
 Name = RusStandard, address = SPB
 Name = VTB, address = SPB
 Name = VTB, address = Ivanovo
+Name = VTB, address = Vladimir

@@ -5,9 +5,11 @@ public class Main {
         switch (name) {
             case "Razer":
                 company = new CompanyHardware(new Razer());
+                System.out.println(company);
                 break;
             case "Logitech":
                 company = new CompanyHardware(new Logitech());
+                System.out.println(company);
                 break;
         }
     }

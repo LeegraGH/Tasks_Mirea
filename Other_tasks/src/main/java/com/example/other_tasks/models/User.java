@@ -1,10 +1,10 @@
 package com.example.other_tasks.models;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")
